@@ -1,0 +1,34 @@
+{
+  "name": "firefly-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pnq0505/firefly-express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.7"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.15.0",
+    "uuid": "^9.0.0"
+  },
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/pnq0505/firefly-express/issues"
+  },
+  "homepage": "https://github.com/pnq0505/firefly-express#readme"
+}
